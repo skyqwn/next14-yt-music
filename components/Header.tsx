@@ -42,6 +42,7 @@ const Header = ({ children }: { children: React.ReactNode }) => {
   const { headerImageSrc } = useUIState();
   const [isScrolled, setIsScrolled] = useState(false);
   const headRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollValue = headRef?.current?.scrollTop;

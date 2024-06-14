@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import React from "react";
 
 interface WhiteButtonProps {
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
   classname?: string | undefined;
   label: string;
 }
