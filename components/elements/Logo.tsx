@@ -11,8 +11,8 @@ const Logo = ({
   isInDrawer = false,
   onClickClose = () => {},
 }: {
-  isInDrawer: boolean;
-  onClickClose: () => void;
+  isInDrawer?: boolean;
+  onClickClose?: () => void;
 }) => {
   const { push } = useRouter();
   const onClickLogo = () => {

@@ -15,7 +15,7 @@ export interface IPlayList {
     imageSrc: string;
   };
 }
-const PlayListNav = ({ playlist }: { playlist: IPlayList }) => {
+const PlayListNav = ({ playlist }: { playlist: any }) => {
   const onClickPlay = () => {};
   return (
     <li className="mx-3 px-4 h-[56px] flex justify-between items-center hover:bg-neutral-700 rounded-lg group">

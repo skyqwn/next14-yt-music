@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -5,8 +7,8 @@ const IconButton = ({
   icon,
   onClickIcon,
 }: {
-  icon: any;
-  onClickIcon: () => void;
+  icon: React.ReactNode;
+  onClickIcon?: () => void;
 }) => {
   return (
     <div
